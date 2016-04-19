@@ -1,0 +1,63 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "",
+    "jquery": "",
+    "mithril": "",
+    "underscore": ""
+  },
+  "devDependencies": {
+    "chai": "",
+    "mocha": "",
+    "sinonjs": ""
+  },
+  "exportsOverride": {
+    "jquery": {
+      "": [
+        "dist/jquery.js",
+        "dist/jquery.min.js",
+        "dist/jquery.min.map"
+      ]
+    },
+    "bootstrap": {
+      "js": [
+        "dist/js/bootstrap.js",
+        "dist/js/bootstrap.min.js"
+      ],
+      "css": [
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap.min.css",
+        "dist/css/bootstrap-theme.css",
+        "dist/css/bootstrap-theme.min.css"
+      ],
+      "fonts": [
+        "dist/fonts/*"
+      ]
+    },
+    "underscore": {
+      "": [
+        "underscore.js",
+        "underscore-min.js",
+        "underscore-min.map"
+      ]
+    },
+    "mithril": {
+      "": [
+        "mithril.min.js"
+      ]
+    },
+    "sinonjs": {
+      "": [
+        "sinon.js"
+      ]
+    }
+  }
+}
